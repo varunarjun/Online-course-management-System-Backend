@@ -32,7 +32,8 @@ INSTALLED_APPS = [
     # Third-party
     'rest_framework',
     'rest_framework.authtoken',
-    'drf_yasg',  # Swagger API
+    'drf_yasg',  # Swagger API documentation
+    'rest_framework_simplejwt',  # JWT Authentication
 
     # Local apps
     'users',
@@ -64,7 +65,7 @@ ROOT_URLCONF = 'ocms_backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],  # Optional: for web UI
+        'DIRS': [BASE_DIR / 'templates'],  # For optional web UI or custom admin templates
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -83,9 +84,8 @@ TEMPLATES = [
 WSGI_APPLICATION = 'ocms_backend.wsgi.application'
 
 # -----------------------------
-# Database
+# Database (MySQL)
 # -----------------------------
-# For simplicity using SQLite. For MySQL/Postgres, update ENGINE, NAME, USER, PASSWORD, HOST, PORT
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -94,9 +94,11 @@ DATABASES = {
         'PASSWORD': 'varun@1234',
         'HOST': 'localhost',
         'PORT': '3306',
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        }
     }
 }
-
 
 # -----------------------------
 # Password Validators
@@ -116,7 +118,6 @@ TIME_ZONE = 'Asia/Kolkata'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
-
 
 # -----------------------------
 # Custom User Model
@@ -145,6 +146,38 @@ SIMPLE_JWT = {
 }
 
 # -----------------------------
+# Swagger JWT Settings
+# -----------------------------
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINITIONS': {
+        'Bearer': {
+            'type': 'apiKey',
+            'name': 'Authorization',
+            'in': 'header',
+            'description': 'JWT Authorization header using the Bearer scheme. Example: "Bearer {token}"'
+        }
+    },
+    'USE_SESSION_AUTH': False,  # Disable default session auth in Swagger
+}
+
+# -----------------------------
+# Static Files (CSS, JS, Images)
+# -----------------------------
+STATIC_URL = '/static/'
+
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',
+]
+
+# -----------------------------
+# Media Files (User Uploads)
+# -----------------------------
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
+# -----------------------------
 # Logging
 # -----------------------------
 LOGGING = {
@@ -154,7 +187,7 @@ LOGGING = {
         'file': {
             'level': 'INFO',
             'class': 'logging.FileHandler',
-            'filename': BASE_DIR / 'ocms.log',
+            'filename': 'ocms.log',
         },
     },
     'loggers': {
@@ -165,6 +198,7 @@ LOGGING = {
         },
     },
 }
+
 
 # -----------------------------
 # Default Primary Key

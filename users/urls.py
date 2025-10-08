@@ -1,9 +1,14 @@
-# users/urls.py
 from django.urls import path
-from .views import RegisterUserView
-from rest_framework.authtoken.views import obtain_auth_token
+from rest_framework_simplejwt.views import TokenRefreshView
+from . import views
 
 urlpatterns = [
-    path('register/', RegisterUserView.as_view(), name='register'),
-    path('login/', obtain_auth_token, name='login')
+    # Register new user
+    path('register/', views.RegisterUserView.as_view(), name='users_register_create'),
+
+    # Login user (custom view to return JWT + extra info)
+    path('login/', views.login_user, name='users_login_create'),
+
+    # Refresh JWT token
+    path('token/refresh/', TokenRefreshView.as_view(), name='users_token_refresh_create'),
 ]

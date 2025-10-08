@@ -1,12 +1,7 @@
-# enrollments/urls.py
-from rest_framework.routers import DefaultRouter
-from django.urls import path, include
-from .views import EnrollmentViewSet
+from django.urls import path
+from . import views
 
-router = DefaultRouter()
-router.register(r'enrollments', EnrollmentViewSet, basename='enrollment')
-
-# Must wrap router.urls with include() in urlpatterns
 urlpatterns = [
-    path('', include(router.urls)),
+    path('', views.EnrollmentListCreateView.as_view(), name='enrollments_list_create'),
+    path('<int:pk>/', views.EnrollmentRetrieveUpdateDeleteView.as_view(), name='enrollments_detail'),
 ]

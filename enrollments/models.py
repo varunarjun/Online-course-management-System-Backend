@@ -21,7 +21,7 @@ class Enrollment(models.Model):
     progress_status = models.CharField(max_length=20, choices=PROGRESS_CHOICES, default='not_started')
     payment_status = models.CharField(max_length=20, choices=PAYMENT_CHOICES, default='pending')
     transaction_id = models.CharField(max_length=100, blank=True, null=True)
-    enrolled_at = models.DateTimeField(auto_now_add=True, default=timezone.now)
+    enrolled_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return f"{self.student.email} - {self.course.title}"

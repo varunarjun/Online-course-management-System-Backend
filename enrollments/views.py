@@ -1,10 +1,19 @@
-# enrollments/views.py
-from rest_framework import viewsets, permissions
+from rest_framework import generics, permissions
 from .models import Enrollment
 from .serializers import EnrollmentSerializer
 
-class EnrollmentViewSet(viewsets.ModelViewSet):
+# -----------------------------
+# List and Create Enrollments
+# -----------------------------
+class EnrollmentListCreateView(generics.ListCreateAPIView):
     queryset = Enrollment.objects.all()
     serializer_class = EnrollmentSerializer
     permission_classes = [permissions.IsAuthenticated]
-123456
+
+# -----------------------------
+# Retrieve, Update, Delete Enrollment
+# -----------------------------
+class EnrollmentRetrieveUpdateDeleteView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Enrollment.objects.all()
+    serializer_class = EnrollmentSerializer
+    permission_classes = [permissions.IsAuthenticated]

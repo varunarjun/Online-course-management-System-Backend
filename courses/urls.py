@@ -1,11 +1,12 @@
-# courses/urls.py
-from rest_framework.routers import DefaultRouter
-from django.urls import path, include
-from .views import CourseViewSet
-
-router = DefaultRouter()
-router.register(r'courses', CourseViewSet, basename='course')
+from django.urls import path
+from . import views
 
 urlpatterns = [
-    path('', include(router.urls)),
+    # CRUD endpoints
+    path('', views.CourseListCreateView.as_view(), name='courses_list_create'),
+    path('<int:pk>/', views.CourseRetrieveUpdateDestroyView.as_view(), name='courses_detail'),
+    path('<int:pk>/analytics/', views.CourseAnalyticsView.as_view(), name='course_analytics'),
+
+    # Admin analytics endpoint
+    path('analytics/admin/', views.admin_courses_analytics, name='admin_courses_analytics'),
 ]

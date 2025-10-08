@@ -1,41 +1,68 @@
-# courses/views.py
-from rest_framework import viewsets, permissions
-from rest_framework.decorators import action
+from rest_framework import generics
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from rest_framework.response import Response
 from .models import Course
-from .serializers import CourseSerializer
+from .serializers import CourseSerializer, CourseAnalyticsSerializer
 from enrollments.models import Enrollment
 
-class CourseViewSet(viewsets.ModelViewSet):
+# ---------------------------------------
+# Admin: Analytics for all courses
+# ---------------------------------------
+@api_view(['GET'])
+@permission_classes([IsAdminUser])
+def admin_courses_analytics(request):
     """
-    ViewSet for managing courses.
+    Returns analytics for all courses:
+    - Total enrollments
+    - Revenue collected (completed payments only)
+    - Progress breakdown
     """
+    courses = Course.objects.all()
+    result = []
+
+    for course in courses:
+        enrollments = Enrollment.objects.filter(course=course)
+        total_enrollments = enrollments.count()
+        revenue_collected = sum(e.course.fee for e in enrollments if e.payment_status == "completed")
+
+        progress = {
+            "not_started": enrollments.filter(progress_status="not_started").count(),
+            "in_progress": enrollments.filter(progress_status="in_progress").count(),
+            "completed": enrollments.filter(progress_status="completed").count()
+        }
+
+        result.append({
+            "course_id": course.id,
+            "title": course.title,
+            "total_enrollments": total_enrollments,
+            "revenue_collected": revenue_collected,
+            "progress": progress
+        })
+
+    return Response(result)
+
+
+# ---------------------------------------
+# CRUD Views for Courses
+# ---------------------------------------
+
+# List all courses and create a new course
+class CourseListCreateView(generics.ListCreateAPIView):
     queryset = Course.objects.all()
     serializer_class = CourseSerializer
-    permission_classes = [permissions.IsAuthenticated]  # Only authenticated users can access by default
+    permission_classes = [IsAuthenticated]
 
-    # Optional: restrict certain actions to instructors/admins
-    def get_permissions(self):
-        if self.action in ['create', 'update', 'partial_update', 'destroy']:
-            permission_classes = [permissions.IsAdminUser | permissions.IsAuthenticated]  # Only admins/instructors
-        else:
-            permission_classes = [permissions.IsAuthenticated]  # All authenticated users can view
-        return [permission() for permission in permission_classes]
 
-    @action(detail=True, methods=['get'], permission_classes=[permissions.IsAdminUser])
-    def analytics(self, request, pk=None):
-        """
-        Custom action to get analytics for a specific course.
-        Accessible only by admins.
-        """
-        course = self.get_object()
-        enrollments = Enrollment.objects.filter(course=course)
+# Retrieve, update, partially update, or delete a single course
+class CourseRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Course.objects.all()
+    serializer_class = CourseSerializer
+    permission_classes = [IsAuthenticated]
 
-        data = {
-            'total_students': enrollments.count(),
-            'completed': enrollments.filter(progress_status='completed').count(),
-            'in_progress': enrollments.filter(progress_status='in_progress').count(),
-            'not_started': enrollments.filter(progress_status='not_started').count(),
-            'revenue': sum([e.course.fee for e in enrollments if e.payment_status == 'completed'])
-        }
-        return Response(data)
+
+# Analytics for a single course
+class CourseAnalyticsView(generics.RetrieveAPIView):
+    queryset = Course.objects.all()
+    serializer_class = CourseAnalyticsSerializer
+    permission_classes = [IsAuthenticated]

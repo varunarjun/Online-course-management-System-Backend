@@ -1,0 +1,920 @@
+Unauthorized: /api/users/register/
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2316
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2367
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 96
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 96
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+"GET /static/admin/css/base.css HTTP/1.1" 200 22120
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+"GET /static/admin/css/login.css HTTP/1.1" 200 951
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6648
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+Not Found: /register
+"GET /register HTTP/1.1" 404 3005
+Not Found: /users/register
+"GET /users/register HTTP/1.1" 404 3023
+"GET /api/users/register HTTP/1.1" 301 0
+Method Not Allowed: /api/users/register/
+"GET /api/users/register/ HTTP/1.1" 405 13183
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+"GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+"GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+"GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+Bad Request: /api/users/register/
+"POST /api/users/register/ HTTP/1.1" 400 13350
+"POST /api/users/register/ HTTP/1.1" 201 13355
+Not Found: /api/users/login/
+"GET /api/users/login/ HTTP/1.1" 404 3145
+"GET /admin/ HTTP/1.1" 200 6648
+Method Not Allowed: /api/users/register/
+"GET /api/users/register/ HTTP/1.1" 405 13183
+"GET /admin/ HTTP/1.1" 200 6648
+"GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6648
+"GET /admin/ HTTP/1.1" 200 6648
+"GET / HTTP/1.1" 200 96
+"GET /admin/ HTTP/1.1" 200 6648
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+"GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+"GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+"GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+"GET /swagger/?format=openapi HTTP/1.1" 200 6949
+"GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+Method Not Allowed: /api/users/register/
+"GET /api/users/register/ HTTP/1.1" 405 13183
+Method Not Allowed: /api/users/register/
+"GET /api/users/register/ HTTP/1.1" 405 13183
+"POST /api/users/register/ HTTP/1.1" 201 13335
+Not Found: /api/users/login/
+"GET /api/users/login/ HTTP/1.1" 404 3145
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Method Not Allowed: /api/users/login/
+"GET /api/users/login/ HTTP/1.1" 405 40
+Method Not Allowed: /api/users/login/
+"GET /api/users/login/ HTTP/1.1" 405 40
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+"GET /swagger/?format=openapi HTTP/1.1" 200 7580
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7580
+"GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
+Method Not Allowed: /api/users/register/
+"GET /api/users/register/ HTTP/1.1" 405 13183
+Method Not Allowed: /api/users/login/
+"GET /api/users/login/ HTTP/1.1" 405 40
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 96
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3014
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+"GET /swagger/?format=openapi HTTP/1.1" 200 7562
+Bad Request: /api/users/login/
+"POST /api/users/login/ HTTP/1.1" 400 68
+Watching for file changes with StatReloader
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7562
+"GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
+"POST /api/users/register/ HTTP/1.1" 201 72
+"GET / HTTP/1.1" 200 96
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7562
+"POST /api/users/login/ HTTP/1.1" 200 52
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 96
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7562
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7562
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7859
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7859
+"GET / HTTP/1.1" 200 96
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 62
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7346
+"POST /api/users/login/ HTTP/1.1" 200 52
+"POST /api/users/login/ HTTP/1.1" 200 52
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/swagger/ HTTP/1.1" 404 3041
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 96
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7346
+"POST /api/users/login/ HTTP/1.1" 200 52
+"GET /swagger/?format=openapi HTTP/1.1" 200 7346
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7877
+"POST /api/users/login/ HTTP/1.1" 200 52
+"GET /swagger/?format=openapi HTTP/1.1" 200 7877
+"GET /swagger/?format=openapi HTTP/1.1" 200 7877
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7877
+"POST /api/users/login/ HTTP/1.1" 200 52
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/users/register/
+"GET /api/users/register/ HTTP/1.1" 405 13183
+"GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+"GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+"GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+"GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+"GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+"POST /api/users/register/ HTTP/1.1" 201 13338
+"GET /api/users/login HTTP/1.1" 301 0
+Method Not Allowed: /api/users/login/
+"GET /api/users/login/ HTTP/1.1" 405 40
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7367
+"POST /api/users/register/ HTTP/1.1" 201 70
+"POST /api/users/login/ HTTP/1.1" 200 52
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 62
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7367
+"POST /api/users/register/ HTTP/1.1" 201 71
+"POST /api/users/login/ HTTP/1.1" 200 52
+Not Found: /accounts/login/
+"GET /accounts/login/?next=/swagger/ HTTP/1.1" 404 3041
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 8055
+"POST /api/users/register/ HTTP/1.1" 201 72
+"POST /api/users/login/ HTTP/1.1" 200 52
+Method Not Allowed: /api/users/login/
+"GET /api/users/login/ HTTP/1.1" 405 40
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7680
+"POST /api/users/register/ HTTP/1.1" 201 68
+"POST /api/users/login/ HTTP/1.1" 200 489
+"POST /api/users/login/ HTTP/1.1" 200 489
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 7680
+"POST /api/users/register/ HTTP/1.1" 201 68
+"POST /api/users/login/ HTTP/1.1" 200 489
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 62
+"GET /swagger/ HTTP/1.1" 200 2211
+"GET /swagger/?format=openapi HTTP/1.1" 200 8126
+"POST /api/users/register/ HTTP/1.1" 201 70
+"POST /api/users/login/ HTTP/1.1" 200 621
+"POST /api/users/token/refresh/ HTTP/1.1" 200 292
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 62
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3364
+"GET /swagger/ HTTP/1.1" 200 1632
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\views.py", line 129, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\generators.py", line 337, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\generators.py", line 561, in get_paths
+    operation = self.get_operation(
+        view, path, prefix, method, components, request
+    )
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\generators.py", line 609, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 58, in get_operation
+    responses = self.get_responses()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 224, in get_responses
+    response_serializers = self.get_response_serializers()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 289, in get_response_serializers
+    responses = self.get_default_responses()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 257, in get_default_responses
+    default_schema = self.serializer_to_schema(default_schema) or ""
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 551, in serializer_to_schema
+    return self.probe_inspectors(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        self.field_inspectors,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        {"field_inspectors": self.field_inspectors},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 137, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\field.py", line 55, in get_schema
+    return self.probe_field_inspectors(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        serializer, openapi.Schema, self.use_definitions
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 277, in probe_field_inspectors
+    return self.probe_inspectors(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        self.field_inspectors,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 137, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\field.py", line 154, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\openapi.py", line 822, in setdefault
+    ret = maker()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\field.py", line 125, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `updated_at` is not valid for model `Course` in `courses.serializers.CourseSerializer`.
+"GET /swagger/?format=openapi HTTP/1.1" 500 214170
+"GET /swagger/ HTTP/1.1" 200 1632
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\views.py", line 129, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\generators.py", line 337, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\generators.py", line 561, in get_paths
+    operation = self.get_operation(
+        view, path, prefix, method, components, request
+    )
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\generators.py", line 609, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 58, in get_operation
+    responses = self.get_responses()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 224, in get_responses
+    response_serializers = self.get_response_serializers()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 289, in get_response_serializers
+    responses = self.get_default_responses()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 257, in get_default_responses
+    default_schema = self.serializer_to_schema(default_schema) or ""
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 551, in serializer_to_schema
+    return self.probe_inspectors(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        self.field_inspectors,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        {"field_inspectors": self.field_inspectors},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 137, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\field.py", line 55, in get_schema
+    return self.probe_field_inspectors(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        serializer, openapi.Schema, self.use_definitions
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 277, in probe_field_inspectors
+    return self.probe_inspectors(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        self.field_inspectors,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 137, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\field.py", line 154, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\openapi.py", line 822, in setdefault
+    ret = maker()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\field.py", line 125, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `updated_at` is not valid for model `Course` in `courses.serializers.CourseSerializer`.
+"GET /swagger/?format=openapi HTTP/1.1" 500 214170
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 62
+"GET /swagger/ HTTP/1.1" 200 1632
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\views.py", line 129, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\generators.py", line 337, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\generators.py", line 561, in get_paths
+    operation = self.get_operation(
+        view, path, prefix, method, components, request
+    )
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\generators.py", line 609, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 58, in get_operation
+    responses = self.get_responses()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 224, in get_responses
+    response_serializers = self.get_response_serializers()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 289, in get_response_serializers
+    responses = self.get_default_responses()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 257, in get_default_responses
+    default_schema = self.serializer_to_schema(default_schema) or ""
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 551, in serializer_to_schema
+    return self.probe_inspectors(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        self.field_inspectors,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        {"field_inspectors": self.field_inspectors},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 137, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\field.py", line 55, in get_schema
+    return self.probe_field_inspectors(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        serializer, openapi.Schema, self.use_definitions
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 277, in probe_field_inspectors
+    return self.probe_inspectors(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        self.field_inspectors,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 137, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\field.py", line 154, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\openapi.py", line 822, in setdefault
+    ret = maker()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\field.py", line 125, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `user` is not valid for model `Enrollment` in `enrollments.serializers.EnrollmentSerializer`.
+"GET /swagger/?format=openapi HTTP/1.1" 500 219313
+"GET /swagger/ HTTP/1.1" 200 1632
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\views.py", line 129, in get
+    schema = generator.get_schema(request, self.public)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\generators.py", line 337, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\generators.py", line 561, in get_paths
+    operation = self.get_operation(
+        view, path, prefix, method, components, request
+    )
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\generators.py", line 609, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 58, in get_operation
+    responses = self.get_responses()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 224, in get_responses
+    response_serializers = self.get_response_serializers()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 289, in get_response_serializers
+    responses = self.get_default_responses()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\view.py", line 257, in get_default_responses
+    default_schema = self.serializer_to_schema(default_schema) or ""
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 551, in serializer_to_schema
+    return self.probe_inspectors(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        self.field_inspectors,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        {"field_inspectors": self.field_inspectors},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 137, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\field.py", line 55, in get_schema
+    return self.probe_field_inspectors(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        serializer, openapi.Schema, self.use_definitions
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 277, in probe_field_inspectors
+    return self.probe_inspectors(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        self.field_inspectors,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\base.py", line 137, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\field.py", line 154, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\openapi.py", line 822, in setdefault
+    ret = maker()
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\drf_yasg\inspectors\field.py", line 125, in make_schema_definition
+    for property_name, child in serializer.fields.items():
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kk\AppData\Roaming\Python\Python313\site-packages\rest_framework\serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `user` is not valid for model `Enrollment` in `enrollments.serializers.EnrollmentSerializer`.
+"GET /swagger/?format=openapi HTTP/1.1" 500 219313
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\enrollments\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\users\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 62
+"GET /swagger/ HTTP/1.1" 200 1632
+"GET /swagger/?format=openapi HTTP/1.1" 200 7884
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 62
+"GET /swagger/ HTTP/1.1" 200 1632
+"GET /swagger/?format=openapi HTTP/1.1" 200 8185
+"POST /api/users/register/ HTTP/1.1" 201 68
+"POST /api/users/login/ HTTP/1.1" 200 524
+"POST /api/users/token/refresh/ HTTP/1.1" 200 244
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 62
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3364
+"GET /swagger/ HTTP/1.1" 200 1632
+"GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+"GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+"GET /swagger/?format=openapi HTTP/1.1" 200 8185
+"POST /api/users/register/ HTTP/1.1" 201 73
+"POST /api/users/login/ HTTP/1.1" 200 528
+"POST /api/users/token/refresh/ HTTP/1.1" 200 245
+"GET /api/courses/ HTTP/1.1" 200 2
+Bad Request: /api/courses/
+"POST /api/courses/ HTTP/1.1" 400 60
+"POST /api/users/register/ HTTP/1.1" 201 80
+"POST /api/courses/ HTTP/1.1" 201 215
+"GET /api/courses/ HTTP/1.1" 200 217
+Bad Request: /api/users/register/
+"POST /api/users/register/ HTTP/1.1" 400 36
+"POST /api/users/register/ HTTP/1.1" 201 79
+Bad Request: /api/users/token/refresh/
+"POST /api/users/token/refresh/ HTTP/1.1" 400 39
+"POST /api/users/token/refresh/ HTTP/1.1" 200 245
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 62
+"GET /swagger/ HTTP/1.1" 200 1632
+"GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
+"GET /swagger/?format=openapi HTTP/1.1" 200 9321
+"POST /api/token/ HTTP/1.1" 200 491
+"POST /api/enrollments/ HTTP/1.1" 201 168
+"GET /api/enrollments/ HTTP/1.1" 200 170
+"GET /api/enrollments/1/ HTTP/1.1" 200 168
+"PUT /api/enrollments/1/ HTTP/1.1" 200 170
+"GET /api/courses/1/analytics/ HTTP/1.1" 200 61
+"POST /api/users/login/ HTTP/1.1" 200 523
+"GET /api/courses/1/analytics/ HTTP/1.1" 200 61
+Not Found: /api/courses/2/analytics/
+"GET /api/courses/2/analytics/ HTTP/1.1" 404 47
+Not Found: /api/courses/12/analytics/
+"GET /api/courses/12/analytics/ HTTP/1.1" 404 47
+Not Found: /api/courses/4/analytics/
+"GET /api/courses/4/analytics/ HTTP/1.1" 404 47
+Not Found: /api/courses/2/analytics/
+"GET /api/courses/2/analytics/ HTTP/1.1" 404 47
+"GET /api/courses/ HTTP/1.1" 200 217
+Bad Request: /api/courses/
+"POST /api/courses/ HTTP/1.1" 400 60
+"POST /api/users/register/ HTTP/1.1" 201 88
+Bad Request: /api/courses/
+"POST /api/courses/ HTTP/1.1" 400 60
+Bad Request: /api/courses/
+"POST /api/courses/ HTTP/1.1" 400 60
+"POST /api/users/register/ HTTP/1.1" 201 88
+Bad Request: /api/courses/
+"POST /api/courses/ HTTP/1.1" 400 60
+"POST /api/courses/ HTTP/1.1" 201 212
+"GET /api/courses/2/analytics/ HTTP/1.1" 200 54
+"POST /api/enrollments/ HTTP/1.1" 201 168
+"GET /api/enrollments/ HTTP/1.1" 200 341
+"PUT /api/enrollments/2/ HTTP/1.1" 200 170
+"POST /api/enrollments/ HTTP/1.1" 201 168
+"GET /api/courses/2/analytics/ HTTP/1.1" 200 54
+Unauthorized: /api/courses/1/analytics/
+"GET /api/courses/1/analytics/ HTTP/1.1" 401 172
+"POST /api/users/token/refresh/ HTTP/1.1" 200 245
+"GET /api/courses/1/analytics/ HTTP/1.1" 200 61
+"GET /api/courses/2/analytics/ HTTP/1.1" 200 54
+"GET /api/enrollments/ HTTP/1.1" 200 512
+Unauthorized: /api/token/
+"POST /api/token/ HTTP/1.1" 401 63
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6648
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"POST /api/token/ HTTP/1.1" 200 491
+"GET /api/courses/1/analytics/ HTTP/1.1" 200 61
+"GET /api/courses/2/analytics/ HTTP/1.1" 200 54
+"GET /api/enrollments/ HTTP/1.1" 200 512
+"PUT /api/enrollments/2/ HTTP/1.1" 200 170
+"PUT /api/enrollments/3/ HTTP/1.1" 200 170
+"GET /api/enrollments/ HTTP/1.1" 200 514
+"GET /api/courses/1/analytics/ HTTP/1.1" 200 61
+"GET /api/courses/2/analytics/ HTTP/1.1" 200 54
+"GET /api/courses/ HTTP/1.1" 200 430
+"GET /api/courses/ HTTP/1.1" 200 430
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\courses\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /swagger/ HTTP/1.1" 200 1632
+"GET /swagger/?format=openapi HTTP/1.1" 200 9651
+Unauthorized: /api/courses/analytics/admin/
+"GET /api/courses/analytics/admin/ HTTP/1.1" 401 58
+Unauthorized: /api/enrollments/
+"GET /api/enrollments/ HTTP/1.1" 401 58
+"POST /api/token/ HTTP/1.1" 200 491
+"GET /api/courses/analytics/admin/ HTTP/1.1" 200 303
+"GET /api/courses/ HTTP/1.1" 200 430
+"PUT /api/courses/1/ HTTP/1.1" 200 216
+"GET /api/courses/ HTTP/1.1" 200 431
+"PUT /api/courses/2/ HTTP/1.1" 200 213
+"GET /api/courses/ HTTP/1.1" 200 432
+"GET /api/courses/analytics/admin/ HTTP/1.1" 200 303
+"GET /api/enrollments/ HTTP/1.1" 200 514
+"GET /api/courses/1/analytics/ HTTP/1.1" 200 61
+"GET /api/courses/2/analytics/ HTTP/1.1" 200 54
+Not Found: /api/courses/3/analytics/
+"GET /api/courses/3/analytics/ HTTP/1.1" 404 47
+C:\Users\kk\Desktop\ocms_dj\ocms_backend\ocms_backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/courses/1/analytics/ HTTP/1.1" 200 61
